@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: black; 
+}
+
+.homeBox{
+  background-color: black; 
+  /* border: 4px dotted yellow;  */
+  padding: 25em;  
+}
+
+
+.mainLogo{
+  border: 2px solid green; 
+  width: 80%;
+  height: 70%;
+  /* display: block; */
+}
