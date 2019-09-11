@@ -11,14 +11,10 @@ render(){
   return(
     <BrowserRouter>
       <div className="App">
-        <Navbar className="navBar" bg="dark" variant="dark">
-          <Navbar.Brand className="headerNav" href="/Home"> 
-            Primo APP Pages
-          </Navbar.Brand>
-          <Nav.Link className="appLinks" href="/">
-          </Nav.Link>
-        </Navbar>
+      <Nav.Link className="navBar"  href="/Home">HOME </Nav.Link>
+        <div className="appBox">
         <Route exact path="/Home" render={() => <Home Home ={Home} /> }/> 
+        </div>
       </div>
     </BrowserRouter>
   )

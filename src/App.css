@@ -1,18 +1,46 @@
 .App {
   text-align: center;
-  background-color: black; 
+  /* background-color:black;  */
+  /* border: 3px solid red;   */
 }
 
 .homeBox{
+  background-color:white; 
+  /* border: 4px dotted yellow;  */ 
+  /* border: 9px dotted blue;   */
+}
+.colorRow{
+  /* border: 4px dotted yellow; */
+  background-color: white;
+  
+}
+.appBox{
   background-color: black; 
-  /* border: 4px dotted yellow;  */
-  padding: 25em;  
+}
+
+.mainLogo{
+  /* border: 6px solid green;  */
+  width: 100%;
+  height: 100%;
+  /* background-color: white;   */
+  /* display: block; */
 }
 
 
-.mainLogo{
-  border: 2px solid green; 
-  width: 80%;
-  height: 70%;
-  /* display: block; */
+.footer{
+  text-align: center; 
+  height: 4em; 
+  background-color: grey;
+  color: white
+}
+
+.footerH3{
+text-align: center;
+vertical-align: middle;
+line-height: 2em; 
+} 
+
+.StockPhoto{
+  width: 50%;
+  height: 40%; 
 }
